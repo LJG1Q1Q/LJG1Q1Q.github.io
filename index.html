@@ -286,7 +286,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['这是一段新的开始，请忘掉不好的回忆，时间的刻痕会被时间消去','大家好！'],
+                        strings: ['这是一段新的开始............请忘掉不好的回忆...........时间的刻痕会被时间消去','感谢阅读'],
                         startDelay: 300,
                         typeSpeed: 10,
                         loop: true,
@@ -303,9 +303,10 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getMinutes() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
+
 
 
 
@@ -739,7 +740,7 @@
 
 <div class="progress-bar"></div>
 
-
+    
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
     <div class="modal-content">
@@ -851,14 +852,14 @@ $(function () {
     </a>
 </div>
 
-
+    
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/libs/aos/aos.js"></script>
     <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
-
+    
     <!-- Baidu Analytics -->
 
     <!-- Baidu Push -->
@@ -881,21 +882,27 @@ $(function () {
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
-
     
-
     
-
-	
     
-
     
-
     
-
+    
+    
+    
+    
+    
+    
+    
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+    <script type="text/javascript">
+        var OriginTitile=document.title,st;
+        document.addEventListener("visibilitychange",function(){
+            document.hidden?(document.title="_______------==========^^^^^^^^********!!!!!!!!!!!!%##@#@#@#$@$@!#@$#@$",clearTimeout(st)):(document.title="明日何其多，不如当下时",st=setTimeout(function(){document.title=OriginTitile},3e3))
+        })
+    </script>
 
 </body>
 
