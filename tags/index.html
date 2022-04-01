@@ -254,9 +254,10 @@
 </div>
 
 
+
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getMinutes() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -605,7 +606,7 @@ $(function () {
     <script type="text/javascript">
         var OriginTitile=document.title,st;
         document.addEventListener("visibilitychange",function(){
-            document.hidden?(document.title="_______------==========^^^^^^^^********!!!!!!!!!!!!%##@#@#@#$@$@!#@$#@$",clearTimeout(st)):(document.title="明日何其多，不如当下时",st=setTimeout(function(){document.title=OriginTitile},3e3))
+            document.hidden?(document.title="_______------==========^^^^^^^^********!!!!!!!!!!!!%大家都深爱着你，好好体会生活吧，无论酸甜苦辣",clearTimeout(st)):(document.title="明日何其多，不如当下时",st=setTimeout(function(){document.title=OriginTitile},3e3))
         })
     </script>
 
