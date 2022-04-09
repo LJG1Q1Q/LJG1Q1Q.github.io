@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>L玉J</title>
+  
+  <subtitle>欢迎抵达！</subtitle>
+  <link href="http://ljg1q1q.com/atom.xml" rel="self"/>
+  
+  <link href="http://ljg1q1q.com/"/>
+  <updated>2022-04-09T18:12:28.453Z</updated>
+  <id>http://ljg1q1q.com/</id>
+  
+  <author>
+    <name>L玉J</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://ljg1q1q.com/2022/041037773.html"/>
+    <id>http://ljg1q1q.com/2022/041037773.html</id>
+    <published>2022-04-09T18:09:53.000Z</published>
+    <updated>2022-04-09T18:12:28.453Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这是一个测试的文件。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
